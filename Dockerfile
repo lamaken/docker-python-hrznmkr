@@ -31,6 +31,7 @@ RUN rm -f /etc/apache2/sites-available/000-default.conf
 RUN unlink /etc/apache2/sites-enabled/000-default.conf
 ADD settings/000-default.conf /etc/apache2/sites-available
 RUN ln -s /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-enabled/000-default.conf
+RUN mkdir /var/www/html/mypys/out
 RUN chmod 777 /var/www/html/mypys/out
 RUN a2ensite 000-default.conf
 RUN a2enmod python
