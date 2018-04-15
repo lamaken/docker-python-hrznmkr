@@ -23,7 +23,7 @@ CANVAS_FILE_NAME = 5
 CANVAS_COLOR = 6
 #UBU
 #resources = "/var/www/html/resources/"
-#output = "/var/www/html/out/"
+#output = "/var/www/html/out/"/Users/lamaken/PycharmProjects/mypys
 
 #ferhodinamic POSO NOM DEL L'ARXIU, DATA DE CREACIO
 #MAC
